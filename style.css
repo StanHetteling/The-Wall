@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, head {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.head a {
+  color: white;
+}
+
+.logo {
+  float: left;
+  background-color: white;
+  margin: 13px;
+  height: auto;
+  width: 2%;
+}
+
+.head li {
+  list-style-type: none;
+  float: left;
+}
+
+.login-head {
+  float: right;
+}
+
+.head li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.head button {
+  padding: 3px 20px;
+  background-color: white;
+}
+ /*blen ccs contact form php*/
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("images1/contact.jpg");
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-family: sans-serif;
+}
+ blen ccs contact form php
+.contact-title {
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+  color: white;
+}
+.contact-title h2 {
+  font-size: 21px;
+  color: white;
+}
+
+form {
+  margin-top: 40px;
+
+}
+.form-control {
+  padding: 10px;
+  width: 600px;
+  background: transparent;
+  border-color: black;
+  /*border: none;
+  outline: none;*/
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-sizing: border-box;
+
+
+}
+form .submit{
+  background: #282828;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+/*#subject1 {
+  margin-right: 10px;
+}*/
