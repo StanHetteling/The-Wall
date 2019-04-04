@@ -4,16 +4,22 @@
 
     <main>
       <div class="wrapper-main">
-        <section class="section-default">
+
+        <div class="wrapper">
           <?php
-            if (isset($_SESSION['userId'])) {
-              echo '<p class="login-status">You are logged in!</p>';
-            }
-            else {
-              echo '<p class="login-status">You are logged out!</p>';
-            }
-           ?>
-        </section>
+            require "aside-left.php";
+          ?>
+          <div class="posts">
+            <?php
+              require "upload.php"
+            ?>
+          </div>
+          <div class="aside-main-right">
+            <?php
+              require "aside-right.php"
+            ?>
+          </div>
+        </div>
       </div>
     </main>
 

@@ -16,13 +16,13 @@
       <nav>
         <div class="head">
           <a href="#">
-            <img src="images/logoo.png" alt="logo" class="logo">
+            <img src="images/logo.png" alt="logo" class="logo">
           </a>
           <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="#">Hot</a></li>
             <li><a href="#">Me</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
           <div class="login-head">
             <?php
@@ -45,4 +45,14 @@
           </div>
         </div>
       </nav>
+      <section class="section-default">
+        <?php
+          if (isset($_SESSION['userId'])) {
+            echo '<p class="login-status">You are logged in!</p>';
+          }
+          else {
+            echo '<p class="login-status">You are logged out!</p>';
+          }
+         ?>
+      </section>
     </header>

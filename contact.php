@@ -1,11 +1,19 @@
 <?php
   require "header.php";
  ?>
+<style media="screen">
+  body {
+    background-color: black;
+  }
+</style>
+
+<div class="contact-pagina">
 
 <div class="contact-title">
-  <h1>Say Hello</h1>
+  <h1>Contact us</h1>
   <h2>We are always ready to help you!</h2>
 </div>
+
 
         <div class="contact-from">
   <form action="cont-form.php">
@@ -21,8 +29,7 @@
 
   </form>
 </div>
-      </nav>
-    </header>
+</div>
 <?php
  require "footer.php";
  ?>
