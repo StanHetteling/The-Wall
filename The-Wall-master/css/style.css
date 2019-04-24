@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, head {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+}
+
+.head a {
+  color: white;
+}
+
+.head a:hover {
+  color: black;
+  background-color: white;
+}
+
+.head ul {
+  margin-left: 60px;
+}
+
+.logo {
+  float: left;
+  background-color: white;
+  margin: 13px;
+  height: auto;
+  width: 2%;
+}
+
+.head li {
+  list-style-type: none;
+  float: left;
+}
+
+.login-head {
+  float: right;
+}
+
+.head li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.head button {
+  padding: 3px 20px;
+  background-color: white;
+}
+
+.section-default {
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-top: white 2px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-head input[type=submit],
+.login-head input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: 'Roboto', sans-serif;
+}
+
+.aside-main {
+  grid-column: 1/2;
+  background-color: black;
+  margin-bottom: 0;
+
+}
+
+.aside-main li {
+  margin-top: 13px;
+
+}
+
+.aside-main a {
+  color: white;
+  text-decoration: none;
+  padding: 7px;
+}
+.thf {
+  padding-bottom: 20px;
+}
+
+.aside-main a:hover {
+  color: black;
+  background-color: white;
+  margin-right: 50px;
+}
+
+.hoofd-cat {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.posts {
+  background-color: black;
+  color: white;
+  grid-column: 2/4;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.aside-main-right {
+  background-color: black;
+  grid-column: 4/5;
+  color: white;
+}
+
+.postsphp textarea {
+  width: 400px;
+  height: 80px;
+  background-color: #fff;
+  resize: none;
+}
+
+.postsphp button {
+  width: 100px;
+  height: 30px;
+  background-color: #282828;
+  border: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/*blen ccs contact form php*/
+.contact-pagina {
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ background-color: black;
+ background-size: cover;
+ background-position: center;
+ color: black;
+ font-family: sans-serif;
+}
+blen ccs contact form php
+.contact-title {
+ margin-top: 100px;
+ color: #fff;
+ text-transform: uppercase;
+
+}
+.contact-title h1 {
+ font-size: 32px;
+ line-height: 10px;
+ color: white;
+}
+.contact-title h2 {
+ font-size: 21px;
+ color: white;
+}
+
+.contact-pagina form {
+ margin-top: 40px;
+
+}
+.form-control {
+ padding: 10px;
+ width: 600px;
+ background: transparent;
+ border-color: black;
+ border: none;
+ outline: none;
+ border-bottom: 1px solid gray;
+ border-right: 1px solid gray;
+ border-left: 1px solid gray;
+ border-top: 1px solid gray;
+ color: #fff;
+ font-size: 20px;
+ margin-bottom: 16px;
+ resize: vertical;
+ box-sizing: border-box;
+
+
+}
+form .submit{
+ background: #282828;
+ border-color: transparent;
+ color: #fff;
+ font-size: 20px;
+ font-weight: bold;
+ letter-spacing: 2px;
+ height: 50px;
+ margin-top: 20px;
+}
+/*einde contact*/
+
+/*upload posts*/
+.title-upload {
+ padding: 10px;
+ width: 600px;
+ background: transparent;
+ border-color: black;
+ border: none;
+ outline: none;
+ border-top: 1px solid gray;
+ border-bottom: 1px solid gray;
+ color: #fff;
+ font-size: 20px;
+ margin-bottom: 16px;
+
+ box-sizing: border-box;
+}
+
+.uploadform {
+  text-align: center;
+  background-position: center;
+}
+
+.upload-submit {
+  background: #282828;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.upload-file button{
+  background: #282828;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+
+
+}
+#fileToUpload{
+
+}
+
+#category {
+  text-align: center;
+  font-size: 12px;
+  background: white;
+  border-color: transparent;
+  font-size: 12px;
+  outline: none;
+  border: none;
+}
+/*einde upload posts*/
+
+footer {
+  margin: 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-column: 1/5;
+  border-top: white 2px;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
